@@ -1,0 +1,111 @@
+/* Reset styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  padding: 0;
+  font-family: inherit;
+  color: currentColor;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Base styles */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: #121212;
+  color: #fff;
+}
+.container {
+  max-width: 375px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.section {
+  padding: 40px 0;
+}
+.footer {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
+@media only screen and (min-width: 320px) {
+  
+}
+
+@media only screen and (min-width: 320px) and (min-resolution: 192dpi) {
+ 
+}
+
+@media only screen and (max-width: 374.98px) {
+  
+}
+@media only screen and (max-width: 767.98px) {
+  
+}
+@media only screen and (min-width: 768px) {
+  
+}
+
+@media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
+  
+}
+@media only screen and (min-width: 768px) and (max-width: 1279.98px) {
+ 
+}
+@media only screen and (max-width: 1279.98px) {
+ 
+}
+@media only screen and (min-width: 1280px) {
+  
+}
+
+@media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
+  
+}
+
