@@ -698,3 +698,34 @@ textarea {
     background-image: url(../images/net-desk@2x.png);
   }
 }
+
+.title {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+  margin-bottom: 40px;
+}
+.span {
+  color: #bea69e;
+}
+.img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-img {
+  width: 100%;
+  height: 100%;
+}
+.list {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.text {
+  width: 100%;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
