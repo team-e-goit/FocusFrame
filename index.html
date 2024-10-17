@@ -1,296 +1,268 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/svg+xml" href="./src/images/favicon.svg" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
-      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./src/css/main.css" />
-    <title>Focus Frame</title>
-  </head>
-  <body>
-    <!-- Fatih Demir-->
-    <div id="hero" class="hero">
-      <header class="container header-container">
-        <nav class="nav-header">
-          <a class="header-logo" href="#">
-            <svg class="header-logo-icon" width="123" height="16">
-              <use href="./src/images/icons.svg#icon-logo"></use>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/svg+xml" href="./src/images/favicon.svg" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./src/css/main.css" />
+  <title>Focus Frame</title>
+</head>
+
+<body>
+  <!-- Fatih Demir-->
+  <div id="hero" class="hero">
+    <header class="container header-container">
+      <nav class="nav-header">
+        <a class="header-logo" href="#">
+          <svg class="header-logo-icon" width="123" height="16">
+            <use href="./src/images/icons.svg#icon-logo"></use>
+          </svg>
+        </a>
+        <ul class="header-menu">
+          <li class="header-menu-item">
+            <a class="header-link" href="#about-us">About us</a>
+          </li>
+          <li class="header-menu-item">
+            <a class="header-link" href="#our-courses">Our courses</a>
+          </li>
+          <li class="header-menu-item">
+            <a class="header-link" href="#our-mentors">Our mentors</a>
+          </li>
+          <li class="header-menu-item">
+            <a class="header-link" href="#reviews">Reviews</a>
+          </li>
+          <li class="header-menu-item">
+            <a class="header-link" href="#contacts">Contacts</a>
+          </li>
+        </ul>
+        <div class="header-mob-btn">
+          <a href="#sign-up" class="header-mobile-btn-link" aria-label="Sign up">
+            <svg class="header-mobile-btn-icon" width="16" height="16">
+              <use href="./src/images/icons.svg#icon-favicon-header"></use>
             </svg>
           </a>
-          <ul class="header-menu">
-            <li class="header-menu-item">
-              <a class="header-link" href="#about-us">About us</a>
-            </li>
-            <li class="header-menu-item">
-              <a class="header-link" href="#our-courses">Our courses</a>
-            </li>
-            <li class="header-menu-item">
-              <a class="header-link" href="#our-mentors">Our mentors</a>
-            </li>
-            <li class="header-menu-item">
-              <a class="header-link" href="#reviews">Reviews</a>
-            </li>
-            <li class="header-menu-item">
-              <a class="header-link" href="#contacts">Contacts</a>
-            </li>
-          </ul>
-          <div class="header-mob-btn">
-            <a
-              href="#sign-up"
-              class="header-mobile-btn-link"
-              aria-label="Sign up"
-            >
-              <svg class="header-mobile-btn-icon" width="16" height="16">
-                <use href="./src/images/icons.svg#icon-favicon-header"></use>
-              </svg>
-            </a>
-            <button class="header-menu-btn" type="button" aria-label="button">
-              <svg class="header-menu-btn-icon" width="32" height="22">
-                <use href="./src/images/icons.svg#icon-nav"></use>
-              </svg>
-            </button>
-          </div>
-        </nav>
-        <a class="header-btn" href="#sign-up" aria-label="btn sign up">Sign up</a>
-      </header>
-      <div class="container hero-container">
-        <div class="hero-description">
-          <div class="hero-description2">
-            <h1 class="hero-title">
-              Discover the magic of
-              <span class="hero-title-span">photography</span> in our school
-            </h1>
-            <p class="hero-text">
-              Our photography school offers an unforgettable journey, where
-              you can learn the basics of composition, master technical
-              skills, translate your unique ideas.
-            </p>
-          </div>
-  
-          <div class="wrap">
-            <div class="hero-users-box">
-              <ul class="hero-users-list">
-                <li class="hero-users-item">
-                  <picture>
-                    <source
-                      media="(min-width: 768px)"
-                      srcset="
-                        ./src/images/student-1.png    1x,
-                        ./src/images/student-1@2x.png 2x
-                      "
-                    />
-                    <source
-                      media="(min-width: 320px)"
-                      srcset="
-                        ./src/images/student-1-mob.png    1x,
-                        ./src/images/student-1-mob@2x.png 2x
-                      "
-                    />
-                    <img
-                      class="hero-users-img"
-                      loading="lazy"
-                      src="./src/images/student-1.png"
-                      alt="happy student #1"
-                    />
-                  </picture>
-                </li>
-                <li class="hero-users-item">
-                  <picture>
-                    <source
-                      media="(min-width: 768px)"
-                      srcset="
-                        ./src/images/student-2.png    1x,
-                        ./src/images/student-2@2x.png 2x
-                      "
-                    />
-                    <source
-                      media="(min-width: 320px)"
-                      srcset="
-                        ./src/images/student-2-mob.png    1x,
-                        ./src/images/student-2-mob@2x.png 2x
-                      "
-                    />
-                    <img
-                      class="hero-users-img"
-                      loading="lazy"
-                      src="./src/images/student-2.png"
-                      alt="happy student #2"
-                    />
-                  </picture>
-                </li>
-                <li class="hero-users-item"></li>
-                <li class="hero-users-item">
-                  <picture>
-                    <source
-                      media="(min-width: 768px)"
-                      srcset="
-                        ./src/images/student-3.png    1x,
-                        ./src/images/student-3@2x.png 2x
-                      "
-                    />
-                    <source
-                      media="(min-width: 320px)"
-                      srcset="
-                        ./src/images/student-3-mob.png    1x,
-                        ./src/images/student-3-mob@2x.png 2x
-                      "
-                    />
-                    <img
-                      class="hero-users-img"
-                      loading="lazy"
-                      src="./src/images/student-3.png"
-                      alt="happy student #3"
-                    />
-                  </picture>
-                </li>
-              </ul>
-  
-              <div class="hero-happy-students">
-                <a class="hero-users-link" href="#reviews"
-                  >Our happy students</a
-                >
-                <a class="hero-users-arrow" href="#reviews">
-                  <img
-                    class="hero-icon-arrow"
-                    src="./src/images/arrow-hero.svg"
-                    alt="hero arrow"
-                  />
-                </a>
-              </div>
-            </div>
-            <div class="hero-reviews-box">
-              <div class="hero-star">
-                <img
-                  src="./src/images/star-hero.svg"
-                  alt="hero reviews star"
-                />
-              </div>
-              <div class="hero-reviews">
-                <p class="hero-reviews-title">Reviews</p>
-                <p class="hero-reviews-value">+1500</p>
-              </div>
-            </div>
-          </div>
-        </div>
-  
-        <div class="hero-main-img">
-          <picture>
-            <source
-              media="(min-width: 1280px)"
-              srcset="
-                ./src/images/thumb-desk.png    1x,
-                ./src/images/thumb-desk@2x.png 2x
-              "
-            />
-            <source
-              media="(min-width: 768px)"
-              srcset="
-                ./src/images/thumb-tab.png    1x,
-                ./src/images/thumb-tab@2x.png 2x
-              "
-            />
-            <source
-              media="(min-width: 320px)"
-              srcset="
-                ./src/images/thumb-mob.png    1x,
-                ./src/images/thumb-mob@2x.png 2x
-              "
-            />
-            <img
-              class="hero-img"
-              loading="lazy"
-              src="./src/images/thumb-mob.png"
-              alt="happy student with camera"
-              width="259"
-            />
-          </picture>
-        </div>
-      </div>
-      <div class="backdrop">
-        <div class="mobile-menu">
-          <button class="mobile-button" type="button">
-            <svg class="menu-icon-close" width="32" height="32">
-              <use href="./src/images/icons.svg#icon-close"></use>
+          <button class="header-menu-btn" type="button" aria-label="button">
+            <svg class="header-menu-btn-icon" width="32" height="22">
+              <use href="./src/images/icons.svg#icon-nav"></use>
             </svg>
           </button>
-          <ul class="menu-wrapper">
-            <li class="menu-item bold">
-              <a href="#about-us" class="menu-link bold">About us</a>
-            </li>
-            <li class="menu-item">
-              <a href="#our-courses" class="menu-link">Our courses</a>
-            </li>
-            <li class="menu-item">
-              <a href="#our-mentors" class="menu-link">Our mentors</a>
-            </li>
-            <li class="menu-item">
-              <a href="#reviews" class="menu-link">Reviews</a>
-            </li>
-            <li class="menu-item">
-              <a href="#contacts" class="menu-link">Contacts</a>
-            </li>
-          </ul>
-          <div class="menu-image"></div>
         </div>
+      </nav>
+      <a class="header-btn" href="#sign-up" aria-label="btn sign up">Sign up</a>
+    </header>
+    <div class="container hero-container">
+      <div class="hero-description">
+        <div class="hero-description2">
+          <h1 class="hero-title">
+            Discover the magic of
+            <span class="hero-title-span">photography</span> in our school
+          </h1>
+          <p class="hero-text">
+            Our photography school offers an unforgettable journey, where
+            you can learn the basics of composition, master technical
+            skills, translate your unique ideas.
+          </p>
+        </div>
+
+        <div class="wrap">
+          <div class="hero-users-box">
+            <ul class="hero-users-list">
+              <li class="hero-users-item">
+                <picture>
+                  <source media="(min-width: 768px)" srcset="
+                        ./src/images/student-1.png    1x,
+                        ./src/images/student-1@2x.png 2x
+                      " />
+                  <source media="(min-width: 320px)" srcset="
+                        ./src/images/student-1-mob.png    1x,
+                        ./src/images/student-1-mob@2x.png 2x
+                      " />
+                  <img class="hero-users-img" loading="lazy" src="./src/images/student-1.png" alt="happy student #1" />
+                </picture>
+              </li>
+              <li class="hero-users-item">
+                <picture>
+                  <source media="(min-width: 768px)" srcset="
+                        ./src/images/student-2.png    1x,
+                        ./src/images/student-2@2x.png 2x
+                      " />
+                  <source media="(min-width: 320px)" srcset="
+                        ./src/images/student-2-mob.png    1x,
+                        ./src/images/student-2-mob@2x.png 2x
+                      " />
+                  <img class="hero-users-img" loading="lazy" src="./src/images/student-2.png" alt="happy student #2" />
+                </picture>
+              </li>
+              <li class="hero-users-item"></li>
+              <li class="hero-users-item">
+                <picture>
+                  <source media="(min-width: 768px)" srcset="
+                        ./src/images/student-3.png    1x,
+                        ./src/images/student-3@2x.png 2x
+                      " />
+                  <source media="(min-width: 320px)" srcset="
+                        ./src/images/student-3-mob.png    1x,
+                        ./src/images/student-3-mob@2x.png 2x
+                      " />
+                  <img class="hero-users-img" loading="lazy" src="./src/images/student-3.png" alt="happy student #3" />
+                </picture>
+              </li>
+            </ul>
+
+            <div class="hero-happy-students">
+              <a class="hero-users-link" href="#reviews">Our happy students</a>
+              <a class="hero-users-arrow" href="#reviews">
+                <img class="hero-icon-arrow" src="./src/images/arrow-hero.svg" alt="hero arrow" />
+              </a>
+            </div>
+          </div>
+          <div class="hero-reviews-box">
+            <div class="hero-star">
+              <img src="./src/images/star-hero.svg" alt="hero reviews star" />
+            </div>
+            <div class="hero-reviews">
+              <p class="hero-reviews-title">Reviews</p>
+              <p class="hero-reviews-value">+1500</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-main-img">
+        <picture>
+          <source media="(min-width: 1280px)" srcset="
+                ./src/images/thumb-desk.png    1x,
+                ./src/images/thumb-desk@2x.png 2x
+              " />
+          <source media="(min-width: 768px)" srcset="
+                ./src/images/thumb-tab.png    1x,
+                ./src/images/thumb-tab@2x.png 2x
+              " />
+          <source media="(min-width: 320px)" srcset="
+                ./src/images/thumb-mob.png    1x,
+                ./src/images/thumb-mob@2x.png 2x
+              " />
+          <img class="hero-img" loading="lazy" src="./src/images/thumb-mob.png" alt="happy student with camera"
+            width="259" />
+        </picture>
       </div>
     </div>
-    <main>
-          <!-- Aysun Çalkaya-->
-        <div class="marquee">
-          
-         
-        </div>
-          <!-- Rafet Yalınkaya -->
-      <section id="about-us" class="about-us section">
-        <div class="container">
-          
-          
-        </div>
-      </section>
-      <!-- Rümeysa Özdemir -->
-      <section id="our-courses" class="our-courses section">
-        <div class="container">
-          
-                 
-        </div>
-      </section>
-        <!-- Beyza Çeliktaş-->
-      <section id="our-mentors" class="our-mentors section">
-        <div class="container ">
-        
-        </div>
-      </section>
-        <!-- Hasan Hüseyin Alptekin-->
-      <section id="sign-up" class="sign-up section">
-        <div class="container">
-         
-        </div>
-      </section>
-        <!-- Büşra Yıldız -->
-      <section id="reviews" class="reviews section">
-        <div class="container">
-        
-        </div>
-      </section>
-    </main>
-     <!-- Aysun Çalkaya-->
-    <footer id="contacts" class="footer">
-      <div class="container">
-      
+    <div class="backdrop">
+      <div class="mobile-menu">
+        <button class="mobile-button" type="button">
+          <svg class="menu-icon-close" width="32" height="32">
+            <use href="./src/images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <ul class="menu-wrapper">
+          <li class="menu-item bold">
+            <a href="#about-us" class="menu-link bold">About us</a>
+          </li>
+          <li class="menu-item">
+            <a href="#our-courses" class="menu-link">Our courses</a>
+          </li>
+          <li class="menu-item">
+            <a href="#our-mentors" class="menu-link">Our mentors</a>
+          </li>
+          <li class="menu-item">
+            <a href="#reviews" class="menu-link">Reviews</a>
+          </li>
+          <li class="menu-item">
+            <a href="#contacts" class="menu-link">Contacts</a>
+          </li>
+        </ul>
+        <div class="menu-image"></div>
       </div>
-    </footer>
-  </body>
+    </div>
+  </div>
+  <main>
+    <!-- Aysun Çalkaya-->
+    <div class="marquee">
+
+
+    </div>
+    <!-- Rafet Yalınkaya -->
+    <section id="about-us" class="about-us section">
+      <div class="container">
+
+
+      </div>
+    </section>
+    <!-- Rümeysa Özdemir -->
+    <section id="our-courses" class="our-courses section">
+      <div class="container">
+
+
+      </div>
+    </section>
+    <!-- Beyza Çeliktaş-->
+    <section id="our-mentors" class="our-mentors section">
+      <div class="container ">
+
+      </div>
+    </section>
+    <!-- Hasan Hüseyin Alptekin-->
+    <section id="sign-up" class="sign-up section">
+      <div class="sign-up-wrap container">
+        <div class="sign-up">
+          <h2 class="sign-up-title">Sign<span class="span">Up</span></h2>
+          <p class="sign-up-text">
+            Please use the form below to contact us. Enter your name, email,
+            and message and we'll get back to you shortly.
+          </p>
+          <form class="form">
+            <div class="form-wrapper">
+              <input required class="form-input" type="text" id="user-name" name="user-name"
+                placeholder="Enter your name" />
+            </div>
+            <div class="form-email">
+              <input required class="form-input" type="text" id="email" name="user-name"
+                placeholder="Enter your email" />
+            </div>
+            <div class="form-wrapper">
+              <textarea required class="form-input message" name="message" id="user-message"
+                placeholder="Message"></textarea>
+            </div>
+            <button class="sign-up-btn" type="submit">Send</button>
+            <p class="form-agreement">
+              By clicking on “Send” button, you agree to our
+              <a href="" class="text-pp">Privacy Policy</a>, and allow Promodo
+              to use this information for marketing purposes.
+            </p>
+          </form>
+        </div>
+        <div class="pictures">
+          <div class="lens">
+            <img class="lens-pic" src="./src/images/element-1.png" alt="" />
+          </div>
+          <div class="camera">
+            <img class="camera-pic" src="./src/images/element-2.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Büşra Yıldız -->
+    <section id="reviews" class="reviews section">
+      <div class="container">
+
+      </div>
+    </section>
+  </main>
+  <!-- Aysun Çalkaya-->
+  <footer id="contacts" class="footer">
+    <div class="container">
+
+    </div>
+  </footer>
+</body>
+
 </html>
