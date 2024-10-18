@@ -435,18 +435,6 @@ body {
 @media only screen and (max-width: 767.98px) {
 }
 @media only screen and (min-width: 768px) {
-  /* about-us */
-  .title {
-    margin-bottom: 50px;
-    font-size: 48px;
-    line-height: 1.13;
-  }
-  .text {
-    width: 280px;
-    font-size: 16px;
-    line-height: 1.25;
-  }
-
   .section {
     padding: 50px 0;
   }
@@ -545,6 +533,18 @@ body {
     line-height: 1.25;
   }
   .hero-reviews-value {
+    line-height: 1.25;
+  }
+
+  /* about-us */
+  .title {
+    margin-bottom: 50px;
+    font-size: 48px;
+    line-height: 1.13;
+  }
+  .text {
+    width: 280px;
+    font-size: 16px;
     line-height: 1.25;
   }
 }
@@ -673,19 +673,6 @@ textarea {
 @media only screen and (max-width: 1279.98px) {
 }
 @media only screen and (min-width: 1280px) {
-  /* about-us */
-  .img-wrapper {
-    gap: 40px;
-  }
-  .list {
-    margin-top: 0;
-  }
-  .text {
-    width: 268px;
-  }
-  .list-item:last-child > .text {
-    width: 264px;
-  }
   .container {
     max-width: 1280px;
     padding: 0 100px;
@@ -746,6 +733,20 @@ textarea {
   }
   .hero-title {
     font-size: 64px;
+  }
+
+  /* about-us */
+  .img-wrapper {
+    gap: 40px;
+  }
+  .list {
+    margin-top: 0;
+  }
+  .text {
+    width: 268px;
+  }
+  .list-item:last-child > .text {
+    width: 264px;
   }
 }
 
