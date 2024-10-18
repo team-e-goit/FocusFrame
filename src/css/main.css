@@ -375,6 +375,37 @@ body {
   height: 100%;
   margin: 0 auto;
 }
+/* about-us */
+.title {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+  margin-bottom: 40px;
+}
+.span {
+  color: #bea69e;
+}
+.img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-img {
+  width: 100%;
+  height: 100%;
+}
+.list {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.text {
+  width: 100%;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
 
 @media only screen and (min-width: 320px) {
   /* hero */
@@ -404,6 +435,18 @@ body {
 @media only screen and (max-width: 767.98px) {
 }
 @media only screen and (min-width: 768px) {
+  /* about-us */
+  .title {
+    margin-bottom: 50px;
+    font-size: 48px;
+    line-height: 1.13;
+  }
+  .text {
+    width: 280px;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
   .section {
     padding: 50px 0;
   }
@@ -630,6 +673,19 @@ textarea {
 @media only screen and (max-width: 1279.98px) {
 }
 @media only screen and (min-width: 1280px) {
+  /* about-us */
+  .img-wrapper {
+    gap: 40px;
+  }
+  .list {
+    margin-top: 0;
+  }
+  .text {
+    width: 268px;
+  }
+  .list-item:last-child > .text {
+    width: 264px;
+  }
   .container {
     max-width: 1280px;
     padding: 0 100px;
@@ -697,35 +753,4 @@ textarea {
   .hero {
     background-image: url(../images/net-desk@2x.png);
   }
-}
-
-.title {
-  font-size: 28px;
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: -0.04em;
-  margin-bottom: 40px;
-}
-.span {
-  color: #bea69e;
-}
-.img-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.about-img {
-  width: 100%;
-  height: 100%;
-}
-.list {
-  margin-top: 40px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-.text {
-  width: 100%;
-  line-height: 1.29;
-  letter-spacing: -0.02em;
 }
