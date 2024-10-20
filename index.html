@@ -20,13 +20,12 @@
     <link rel="stylesheet" href="./src/css/main.css" />
     <title>Focus Frame</title>
   </head>
-
   <body>
     <!-- Fatih Demir-->
-    <div id="hero" class="hero">
+    <div class="wrapper-for-grid">
       <header class="container header-container">
         <nav class="nav-header">
-          <a class="header-logo" href="#">
+          <a class="header-logo" href="./index.html">
             <svg class="header-logo-icon" width="123" height="16">
               <use href="./src/images/icons.svg#icon-logo"></use>
             </svg>
@@ -63,156 +62,6 @@
         </nav>
         <a class="header-btn" href="#sign-up">Sign up</a>
       </header>
-      <div class="container hero-container">
-        <div class="hero-description">
-          <div class="hero-description2">
-            <h1 class="hero-title">
-              Discover the magic of
-              <span class="hero-title-span">photography</span> in our school
-            </h1>
-            <p class="hero-text">
-              Our photography school offers an unforgettable journey, where you
-              can learn the basics of composition, master technical skills,
-              translate your unique ideas.
-            </p>
-          </div>
-
-          <div class="wrap">
-            <div class="hero-users-box">
-              <ul class="hero-users-list">
-                <li class="hero-users-item">
-                  <picture>
-                    <source
-                      media="(min-width: 768px)"
-                      srcset="
-                        ./src/images/student-1.png    1x,
-                        ./src/images/student-1@2x.png 2x
-                      "
-                    />
-                    <source
-                      media="(min-width: 320px)"
-                      srcset="
-                        ./src/images/student-1-mob.png    1x,
-                        ./src/images/student-1-mob@2x.png 2x
-                      "
-                    />
-                    <img
-                      class="hero-users-img"
-                      loading="lazy"
-                      src="./src/images/student-1.png"
-                      alt="happy student #1"
-                    />
-                  </picture>
-                </li>
-                <li class="hero-users-item">
-                  <picture>
-                    <source
-                      media="(min-width: 768px)"
-                      srcset="
-                        ./src/images/student-2.png    1x,
-                        ./src/images/student-2@2x.png 2x
-                      "
-                    />
-                    <source
-                      media="(min-width: 320px)"
-                      srcset="
-                        ./src/images/student-2-mob.png    1x,
-                        ./src/images/student-2-mob@2x.png 2x
-                      "
-                    />
-                    <img
-                      class="hero-users-img"
-                      loading="lazy"
-                      src="./src/images/student-2.png"
-                      alt="happy student #2"
-                    />
-                  </picture>
-                </li>
-                <li class="hero-users-item"></li>
-                <li class="hero-users-item">
-                  <picture>
-                    <source
-                      media="(min-width: 768px)"
-                      srcset="
-                        ./src/images/student-3.png    1x,
-                        ./src/images/student-3@2x.png 2x
-                      "
-                    />
-                    <source
-                      media="(min-width: 320px)"
-                      srcset="
-                        ./src/images/student-3-mob.png    1x,
-                        ./src/images/student-3-mob@2x.png 2x
-                      "
-                    />
-                    <img
-                      class="hero-users-img"
-                      loading="lazy"
-                      src="./src/images/student-3.png"
-                      alt="happy student #3"
-                    />
-                  </picture>
-                </li>
-              </ul>
-
-              <div class="hero-happy-students">
-                <a class="hero-users-link" href="#reviews"
-                  >Our happy students</a
-                >
-                <a class="hero-users-arrow" href="#reviews">
-                  <img
-                    class="hero-icon-arrow"
-                    src="./src/images/arrow-hero.svg"
-                    alt="hero arrow"
-                  />
-                </a>
-              </div>
-            </div>
-            <div class="hero-reviews-box">
-              <div class="hero-star">
-                <img src="./src/images/star-hero.svg" alt="hero reviews star" />
-              </div>
-              <div class="hero-reviews">
-                <p class="hero-reviews-title">Reviews</p>
-                <p class="hero-reviews-value">+1500</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="hero-main-img">
-          <picture>
-            <source
-              media="(min-width: 1280px)"
-              srcset="
-                ./src/images/thumb-desk.png    1x,
-                ./src/images/thumb-desk@2x.png 2x
-              "
-            />
-            <source
-              media="(min-width: 768px)"
-              srcset="
-                ./src/images/thumb-tab.png    1x,
-                ./src/images/thumb-tab@2x.png 2x
-              "
-            />
-            <source
-              media="(min-width: 320px)"
-              srcset="
-                ./src/images/thumb-mob.png    1x,
-                ./src/images/thumb-mob@2x.png 2x
-              "
-            />
-            <img
-              class="hero-img"
-              loading="lazy"
-              src="./src/images/thumb-mob.png"
-              alt="happy student with camera"
-              width="259"
-            />
-          </picture>
-        </div>
-      </div>
       <div class="backdrop">
         <div class="mobile-menu">
           <button class="mobile-button" type="button">
@@ -240,21 +89,178 @@
           <div class="menu-image"></div>
         </div>
       </div>
+      <section id="hero" class="hero section">
+        <div class="container hero-container">
+          <div class="hero-description">
+            <div class="hero-description2">
+              <h1 class="hero-title">
+                Discover the magic of
+                <span class="hero-title-span">photography</span> in our school
+              </h1>
+              <p class="hero-text">
+                Our photography school offers an unforgettable journey, where
+                you can learn the basics of composition, master technical
+                skills, translate your unique ideas.
+              </p>
+            </div>
+
+            <div class="wrap">
+              <div class="hero-users-box">
+                <ul class="hero-users-list">
+                  <li class="hero-users-item">
+                    <picture>
+                      <source
+                        media="(min-width: 768px)"
+                        srcset="
+                          ./src/images/student-1.png    1x,
+                          ./src/images/student-1@2x.png 2x
+                        "
+                      />
+                      <source
+                        media="(min-width: 320px)"
+                        srcset="
+                          ./src/images/student-1-mob.png    1x,
+                          ./src/images/student-1-mob@2x.png 2x
+                        "
+                      />
+                      <img
+                        class="hero-users-img"
+                        loading="lazy"
+                        src="./src/images/student-1.png"
+                        alt="happy student #1"
+                      />
+                    </picture>
+                  </li>
+                  <li class="hero-users-item">
+                    <picture>
+                      <source
+                        media="(min-width: 768px)"
+                        srcset="
+                          ./src/images/student-2.png    1x,
+                          ./src/images/student-2@2x.png 2x
+                        "
+                      />
+                      <source
+                        media="(min-width: 320px)"
+                        srcset="
+                          ./src/images/student-2-mob.png    1x,
+                          ./src/images/student-2-mob@2x.png 2x
+                        "
+                      />
+                      <img
+                        class="hero-users-img"
+                        loading="lazy"
+                        src="./src/images/student-2.png"
+                        alt="happy student #2"
+                      />
+                    </picture>
+                  </li>
+                  <li class="hero-users-item"></li>
+                  <li class="hero-users-item">
+                    <picture>
+                      <source
+                        media="(min-width: 768px)"
+                        srcset="
+                          ./src/images/student-3.png    1x,
+                          ./src/images/student-3@2x.png 2x
+                        "
+                      />
+                      <source
+                        media="(min-width: 320px)"
+                        srcset="
+                          ./src/images/student-3-mob.png    1x,
+                          ./src/images/student-3-mob@2x.png 2x
+                        "
+                      />
+                      <img
+                        class="hero-users-img"
+                        loading="lazy"
+                        src="./src/images/student-3.png"
+                        alt="happy student #3"
+                      />
+                    </picture>
+                  </li>
+                </ul>
+
+                <div class="hero-happy-students">
+                  <a class="hero-users-link" href="#reviews"
+                    >Our happy students</a
+                  >
+                  <a class="hero-users-arrow" href="#reviews">
+                    <img
+                      class="hero-icon-arrow"
+                      src="./src/images/arrow-hero.svg"
+                      alt="hero arrow"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="hero-reviews-box">
+                <div class="hero-star">
+                  <img
+                    src="./src/images/star-hero.svg"
+                    alt="hero reviews star"
+                  />
+                </div>
+                <div class="hero-reviews">
+                  <p class="hero-reviews-title">Reviews</p>
+                  <p class="hero-reviews-value">+1500</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-main-img">
+            <picture>
+              <source
+                media="(min-width: 1280px)"
+                srcset="
+                  ../src/images/thumb-desk.png    1x,
+                  ../src/images/thumb-desk@2x.png 2x
+                "
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="
+                  ./src/images/thumb-tab.png    1x,
+                  ./src/images/thumb-tab@2x.png 2x
+                "
+              />
+              <source
+                media="(min-width: 320px)"
+                srcset="
+                  ./src/images/thumb-mob.png    1x,
+                  ./src/images/thumb-mob@2x.png 2x
+                "
+              />
+              <img
+                class="hero-img"
+                loading="lazy"
+                src="./src/images/thumb-mob.png"
+                alt="happy student with camera"
+                width="259"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
     </div>
     <main>
       <!-- Aysun Çalkaya-->
-      <div class="marquee">
-        <div class="marquee-inner">
-          <p class="marquee-line">
-            <span class="span">Master</span> your photography
-            <span class="span">skills with us!</span>
-          </p>
-          <p class="marquee-line">
-            <span class="span">Master</span> your photography
-            <span class="span">skills with us!</span>
-          </p>
+      <section class="advertisement section">
+        <div class="marquee">
+          <div class="marquee-inner">
+            <p class="marquee-line">
+              <span class="span">Master</span> your photography
+              <span class="span">skills with us!</span>
+            </p>
+            <p class="marquee-line">
+              <span class="span">Master</span> your photography
+              <span class="span">skills with us!</span>
+            </p>
+          </div>
         </div>
-      </div>
+      </section>
       <!-- Rafet Yalınkaya -->
       <section id="about-us" class="about-us section">
         <div class="container">
@@ -316,7 +322,6 @@
           </div>
         </div>
       </section>
-
       <!-- Rumeysa Özdemir -->
       <section id="our-courses" class="our-courses section">
         <div class="container">
@@ -417,15 +422,15 @@
                     ./src/images/mentor-1.png    1x,
                     ./src/images/mentor-1@2x.png 2x
                   "
-                  src="../src/images/mentor-1.png"
-                  alt="Emilia Smith's picture"
+                  src="./src/images/mentor-1.png"
+                  alt="Emilia Smith"
                   width="180"
                   height="180"
                   loading="lazy"
                 />
                 <div class="info-mentors">
                   <h3 class="name-mentors">Emilia Smith</h3>
-                  <p class="experience">1.5 years of experience</p>
+                  <p class="expierience">1.5 years of experience</p>
                 </div>
               </li>
               <li class="list-mentor">
@@ -436,14 +441,14 @@
                     ./src/images/mentor-2@2x.png 2x
                   "
                   src="./src/images/mentor-2.png"
-                  alt="Alex Lebedev's picture"
+                  alt="Alex Lebedev"
                   width="180"
                   height="180"
                   loading="lazy"
                 />
                 <div class="info-mentor">
                   <h3 class="name-mentors">Alex Lebedev</h3>
-                  <p class="experience">3.5 years of experience</p>
+                  <p class="expierience">3.5 years of experience</p>
                 </div>
               </li>
               <li class="list-mentor">
@@ -454,14 +459,14 @@
                     ./src/images/mentor-3@2x.png 2x
                   "
                   src="./src/images/mentor-3.png"
-                  alt="Mia Dubrovska's picture"
+                  alt="Mia Dubrovska"
                   width="180"
                   height="180"
                   loading="lazy"
                 />
                 <div class="info-mentors">
                   <h3 class="name-mentors">Mia Dubrovska</h3>
-                  <p class="experience">2.0 years of experience</p>
+                  <p class="expierience">2.0 years of experience</p>
                 </div>
               </li>
               <li class="list-mentor">
@@ -472,14 +477,14 @@
                     ./src/images/mentor-4@2x.png 2x
                   "
                   src="./src/images/mentor-4.png"
-                  alt="Eliot Kovalev's picture"
+                  alt="Eliot Kovalev"
                   width="180"
                   height="180"
                   loading="lazy"
                 />
                 <div class="info-mentors">
                   <h3 class="name-mentors">Eliot Kovalev</h3>
-                  <p class="experience">4.0 years of experience</p>
+                  <p class="expierience">4.0 years of experience</p>
                 </div>
               </li>
             </ul>
@@ -535,7 +540,7 @@
           </div>
           <div class="pictures">
             <div class="lens">
-              <img class="lens-pic" src="./src/images/element-1.png" alt="" />
+              <img class="lens-pic" src="../src/images/element-1.png" alt="" />
             </div>
             <div class="camera">
               <img class="camera-pic" src="./src/images/element-2.png" alt="" />
@@ -552,10 +557,10 @@
               <div class="reviews-name-block">
                 <img
                   class="reviews-img"
-                  src="../src/images/person-1.png"
+                  src="./src/images/person-1.png"
                   srcset="
-                    ../src/images/person-1.png    1x,
-                    ../src/images/person-1@2x.png 2x
+                    ./src/images/person-1.png    1x,
+                    ./src/images/person-1@2x.png 2x
                   "
                   alt="Picture of Abraham Baker"
                   loading="lazy"
@@ -620,10 +625,10 @@
               <div class="reviews-name-block">
                 <img
                   class="reviews-img"
-                  src="../src/images/person-2.png"
+                  src="./src/images/person-2.png"
                   srcset="
-                    ../src/images/person-2.png    1x,
-                    ../src/images/person-2@2x.png 2x
+                    ./src/images/person-2.png    1x,
+                    ./src/images/person-2@2x.png 2x
                   "
                   alt="Picture of Amanda Lowery"
                   loading="lazy"
@@ -714,7 +719,6 @@
                   class="social-link"
                   href="https://www.instagram.com/goit.turkiye/"
                   target="_blank"
-                  rel="noopener noreferrer"
                   >Instagram</a
                 >
               </li>
@@ -778,11 +782,7 @@
           </form>
         </div>
         <div class="privacy-wrapper">
-          <a
-            class="privacy-link"
-            href="./"
-            target="_blank"
-            rel="noopener noreferrer"
+          <a class="privacy-link" href="./" target="_blank"
             >Privacy Policy Public Offering Agreement</a
           >
           <p class="copyright-footer">
