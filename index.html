@@ -53,22 +53,23 @@
                 <use href="./src/images/icons.svg#icon-favicon-header"></use>
               </svg>
             </a>
-            <button class="header-menu-btn" type="button">
+            <label for="open-backdrop" class="header-menu-btn">
               <svg class="header-menu-btn-icon" width="32" height="22">
                 <use href="./src/images/icons.svg#icon-nav"></use>
               </svg>
-            </button>
+            </label>
           </div>
         </nav>
         <a class="header-btn" href="#sign-up">Sign up</a>
       </header>
+      <input type="checkbox" id="open-backdrop" class="hidden-checkbox" />
       <div class="backdrop">
         <div class="mobile-menu">
-          <button class="mobile-button" type="button">
+          <label for="open-backdrop" class="mobile-button">
             <svg class="menu-icon-close" width="32" height="32">
               <use href="./src/images/icons.svg#icon-close"></use>
             </svg>
-          </button>
+          </label>
           <ul class="menu-wrapper">
             <li class="menu-item bold">
               <a href="#about-us" class="menu-link bold">About us</a>
@@ -230,7 +231,7 @@
                 media="(min-width: 320px)"
                 srcset="
                   ./src/images/thumb-mob.png    1x,
-                  ./src/images/thumb-mob@2x.png    2x
+                  ./src/images/thumb-mob@2x.png 2x
                 "
               />
               <img
